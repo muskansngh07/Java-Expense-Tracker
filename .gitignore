@@ -2,9 +2,28 @@
 *.class
 *.jar
 *.war
-*.log
-*.iml
-.idea/
-*.swp
+*.ear
+
+# Build directories
 target/
 bin/
+out/
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Maven
+log/
+*.log
+.mvn/
